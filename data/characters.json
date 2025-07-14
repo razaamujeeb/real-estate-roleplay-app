@@ -1,0 +1,902 @@
+[
+  {
+    "name": "吉田 結衣",
+    "age": 52,
+    "nationality": "日本",
+    "occupation": "公務員",
+    "personality": "マイペース",
+    "family": "ルームシェア",
+    "difficulty": "low"
+  },
+  {
+    "name": "山本 悠斗",
+    "age": 28,
+    "nationality": "日本",
+    "occupation": "営業職",
+    "personality": "慎重派",
+    "family": "兄弟と同居",
+    "difficulty": "medium"
+  },
+  {
+    "name": "吉田 悠斗",
+    "age": 68,
+    "nationality": "日本",
+    "occupation": "SE",
+    "personality": "感情的",
+    "family": "夫婦＋子ども2人（中高生）",
+    "difficulty": "low"
+  },
+  {
+    "name": "高橋 大輔",
+    "age": 65,
+    "nationality": "日本",
+    "occupation": "保育士",
+    "personality": "空想的",
+    "family": "ルームシェア",
+    "difficulty": "low"
+  },
+  {
+    "name": "小林 美咲",
+    "age": 74,
+    "nationality": "日本",
+    "occupation": "会社員",
+    "personality": "おっとり",
+    "family": "夫婦＋子ども2人（中高生）",
+    "difficulty": "medium"
+  },
+  {
+    "name": "伊藤 翔太",
+    "age": 42,
+    "nationality": "日本",
+    "occupation": "自営業",
+    "personality": "聞き上手",
+    "family": "ルームシェア",
+    "difficulty": "low"
+  },
+  {
+    "name": "高橋 葵",
+    "age": 47,
+    "nationality": "日本",
+    "occupation": "建築士",
+    "personality": "論理的",
+    "family": "夫婦＋子ども1人（小学生）",
+    "difficulty": "low"
+  },
+  {
+    "name": "田中 美咲",
+    "age": 58,
+    "nationality": "日本",
+    "occupation": "公務員",
+    "personality": "楽観的",
+    "family": "夫婦＋子ども1人（小学生）",
+    "difficulty": "low"
+  },
+  {
+    "name": "高橋 翔太",
+    "age": 33,
+    "nationality": "日本",
+    "occupation": "自営業",
+    "personality": "協調性が高い",
+    "family": "一人暮らし",
+    "difficulty": "low"
+  },
+  {
+    "name": "田中 結衣",
+    "age": 23,
+    "nationality": "日本",
+    "occupation": "自営業",
+    "personality": "感情的",
+    "family": "子どもと2人暮らし（シングル）",
+    "difficulty": "low"
+  },
+  {
+    "name": "小林 葵",
+    "age": 64,
+    "nationality": "日本",
+    "occupation": "物流管理者",
+    "personality": "協調性が高い",
+    "family": "夫婦＋子ども1人（小学生）",
+    "difficulty": "low"
+  },
+  {
+    "name": "佐藤 翔太",
+    "age": 22,
+    "nationality": "日本",
+    "occupation": "投資家",
+    "personality": "自己主張が強い",
+    "family": "夫婦2人暮らし",
+    "difficulty": "high"
+  },
+  {
+    "name": "田中 翔太",
+    "age": 45,
+    "nationality": "日本",
+    "occupation": "薬剤師",
+    "personality": "熱血",
+    "family": "ルームシェア",
+    "difficulty": "low"
+  },
+  {
+    "name": "小林 健太",
+    "age": 27,
+    "nationality": "日本",
+    "occupation": "看護師",
+    "personality": "短気",
+    "family": "ルームシェア",
+    "difficulty": "high"
+  },
+  {
+    "name": "吉田 蓮",
+    "age": 35,
+    "nationality": "日本",
+    "occupation": "自営業",
+    "personality": "楽観的",
+    "family": "一人暮らし",
+    "difficulty": "low"
+  },
+  {
+    "name": "加藤 翔太",
+    "age": 26,
+    "nationality": "日本",
+    "occupation": "マーケター",
+    "personality": "協調性が高い",
+    "family": "夫婦2人暮らし",
+    "difficulty": "low"
+  },
+  {
+    "name": "小林 蓮",
+    "age": 24,
+    "nationality": "日本",
+    "occupation": "ITエンジニア",
+    "personality": "現実的",
+    "family": "夫婦＋子ども1人（小学生）",
+    "difficulty": "low"
+  },
+  {
+    "name": "中村 陽菜",
+    "age": 24,
+    "nationality": "日本",
+    "occupation": "大学教授",
+    "personality": "空想的",
+    "family": "両親と同居",
+    "difficulty": "medium"
+  },
+  {
+    "name": "田中 翔太",
+    "age": 40,
+    "nationality": "日本",
+    "occupation": "マーケター",
+    "personality": "空想的",
+    "family": "ルームシェア",
+    "difficulty": "low"
+  },
+  {
+    "name": "加藤 結衣",
+    "age": 36,
+    "nationality": "日本",
+    "occupation": "SE",
+    "personality": "論理的",
+    "family": "両親と同居",
+    "difficulty": "low"
+  },
+  {
+    "name": "鈴木 美咲",
+    "age": 68,
+    "nationality": "日本",
+    "occupation": "SE",
+    "personality": "感情的",
+    "family": "一人暮らし",
+    "difficulty": "low"
+  },
+  {
+    "name": "鈴木 陽菜",
+    "age": 28,
+    "nationality": "日本",
+    "occupation": "フリーター",
+    "personality": "論理的",
+    "family": "子どもと2人暮らし（シングル）",
+    "difficulty": "low"
+  },
+  {
+    "name": "高橋 大輔",
+    "age": 51,
+    "nationality": "日本",
+    "occupation": "看護師",
+    "personality": "現実的",
+    "family": "ルームシェア",
+    "difficulty": "low"
+  },
+  {
+    "name": "小林 健太",
+    "age": 22,
+    "nationality": "日本",
+    "occupation": "公務員",
+    "personality": "感情的",
+    "family": "夫婦2人暮らし",
+    "difficulty": "low"
+  },
+  {
+    "name": "佐藤 美咲",
+    "age": 53,
+    "nationality": "日本",
+    "occupation": "保育士",
+    "personality": "おっとり",
+    "family": "子どもと2人暮らし（シングル）",
+    "difficulty": "low"
+  },
+  {
+    "name": "田中 美咲",
+    "age": 65,
+    "nationality": "日本",
+    "occupation": "建築士",
+    "personality": "内向的",
+    "family": "兄弟と同居",
+    "difficulty": "low"
+  },
+  {
+    "name": "吉田 結衣",
+    "age": 61,
+    "nationality": "日本",
+    "occupation": "学生",
+    "personality": "慎重派",
+    "family": "夫婦2人暮らし",
+    "difficulty": "low"
+  },
+  {
+    "name": "田中 結衣",
+    "age": 70,
+    "nationality": "日本",
+    "occupation": "薬剤師",
+    "personality": "短気",
+    "family": "一人暮らし",
+    "difficulty": "high"
+  },
+  {
+    "name": "吉田 蓮",
+    "age": 47,
+    "nationality": "日本",
+    "occupation": "物流管理者",
+    "personality": "楽観的",
+    "family": "ルームシェア",
+    "difficulty": "low"
+  },
+  {
+    "name": "鈴木 結衣",
+    "age": 37,
+    "nationality": "日本",
+    "occupation": "主婦",
+    "personality": "空想的",
+    "family": "夫婦＋子ども1人（小学生）",
+    "difficulty": "low"
+  },
+  {
+    "name": "高橋 陽菜",
+    "age": 43,
+    "nationality": "日本",
+    "occupation": "研究員",
+    "personality": "聞き上手",
+    "family": "兄弟と同居",
+    "difficulty": "medium"
+  },
+  {
+    "name": "鈴木 美咲",
+    "age": 22,
+    "nationality": "日本",
+    "occupation": "自営業",
+    "personality": "自己主張が強い",
+    "family": "ルームシェア",
+    "difficulty": "high"
+  },
+  {
+    "name": "山本 結衣",
+    "age": 54,
+    "nationality": "日本",
+    "occupation": "投資家",
+    "personality": "聞き上手",
+    "family": "夫婦2人暮らし",
+    "difficulty": "high"
+  },
+  {
+    "name": "加藤 美咲",
+    "age": 29,
+    "nationality": "日本",
+    "occupation": "ITエンジニア",
+    "personality": "現実的",
+    "family": "両親と同居",
+    "difficulty": "low"
+  },
+  {
+    "name": "高橋 さくら",
+    "age": 40,
+    "nationality": "日本",
+    "occupation": "投資家",
+    "personality": "現実的",
+    "family": "夫婦＋子ども2人（中高生）",
+    "difficulty": "high"
+  },
+  {
+    "name": "中村 葵",
+    "age": 39,
+    "nationality": "日本",
+    "occupation": "薬剤師",
+    "personality": "感情的",
+    "family": "兄弟と同居",
+    "difficulty": "low"
+  },
+  {
+    "name": "加藤 美咲",
+    "age": 24,
+    "nationality": "日本",
+    "occupation": "学生",
+    "personality": "自己主張が強い",
+    "family": "ルームシェア",
+    "difficulty": "high"
+  },
+  {
+    "name": "小林 蓮",
+    "age": 53,
+    "nationality": "日本",
+    "occupation": "税理士",
+    "personality": "空想的",
+    "family": "一人暮らし",
+    "difficulty": "low"
+  },
+  {
+    "name": "山本 翔太",
+    "age": 29,
+    "nationality": "日本",
+    "occupation": "建築士",
+    "personality": "社交的",
+    "family": "子どもと2人暮らし（シングル）",
+    "difficulty": "low"
+  },
+  {
+    "name": "鈴木 美咲",
+    "age": 42,
+    "nationality": "日本",
+    "occupation": "会社役員",
+    "personality": "自己主張が強い",
+    "family": "夫婦2人暮らし",
+    "difficulty": "high"
+  },
+  {
+    "name": "高橋 健太",
+    "age": 49,
+    "nationality": "日本",
+    "occupation": "看護師",
+    "personality": "慎重派",
+    "family": "夫婦＋子ども1人（小学生）",
+    "difficulty": "low"
+  },
+  {
+    "name": "吉田 陽菜",
+    "age": 39,
+    "nationality": "日本",
+    "occupation": "自営業",
+    "personality": "自己主張が強い",
+    "family": "兄弟と同居",
+    "difficulty": "high"
+  },
+  {
+    "name": "中村 健太",
+    "age": 60,
+    "nationality": "日本",
+    "occupation": "投資家",
+    "personality": "マイペース",
+    "family": "夫婦2人暮らし",
+    "difficulty": "high"
+  },
+  {
+    "name": "鈴木 翔太",
+    "age": 32,
+    "nationality": "日本",
+    "occupation": "マーケター",
+    "personality": "内向的",
+    "family": "両親と同居",
+    "difficulty": "low"
+  },
+  {
+    "name": "高橋 葵",
+    "age": 40,
+    "nationality": "日本",
+    "occupation": "飲食店経営者",
+    "personality": "おっとり",
+    "family": "一人暮らし",
+    "difficulty": "low"
+  },
+  {
+    "name": "伊藤 翔太",
+    "age": 54,
+    "nationality": "日本",
+    "occupation": "不動産業",
+    "personality": "柔軟",
+    "family": "夫婦＋子ども1人（小学生）",
+    "difficulty": "low"
+  },
+  {
+    "name": "吉田 大輔",
+    "age": 67,
+    "nationality": "日本",
+    "occupation": "主婦",
+    "personality": "マイペース",
+    "family": "子どもと2人暮らし（シングル）",
+    "difficulty": "low"
+  },
+  {
+    "name": "鈴木 結衣",
+    "age": 53,
+    "nationality": "日本",
+    "occupation": "フリーター",
+    "personality": "短気",
+    "family": "子どもと2人暮らし（シングル）",
+    "difficulty": "high"
+  },
+  {
+    "name": "中村 健太",
+    "age": 69,
+    "nationality": "日本",
+    "occupation": "不動産業",
+    "personality": "慎重派",
+    "family": "夫婦＋子ども2人（中高生）",
+    "difficulty": "low"
+  },
+  {
+    "name": "吉田 結衣",
+    "age": 29,
+    "nationality": "日本",
+    "occupation": "会社役員",
+    "personality": "感情的",
+    "family": "一人暮らし",
+    "difficulty": "high"
+  },
+  {
+    "name": "中村 結衣",
+    "age": 31,
+    "nationality": "日本",
+    "occupation": "薬剤師",
+    "personality": "慎重派",
+    "family": "夫婦＋子ども2人（中高生）",
+    "difficulty": "low"
+  },
+  {
+    "name": "高橋 蓮",
+    "age": 40,
+    "nationality": "日本",
+    "occupation": "不動産業",
+    "personality": "楽観的",
+    "family": "夫婦＋子ども2人（中高生）",
+    "difficulty": "low"
+  },
+  {
+    "name": "小林 悠斗",
+    "age": 75,
+    "nationality": "日本",
+    "occupation": "大学教授",
+    "personality": "楽観的",
+    "family": "夫婦＋子ども2人（中高生）",
+    "difficulty": "medium"
+  },
+  {
+    "name": "山本 さくら",
+    "age": 74,
+    "nationality": "日本",
+    "occupation": "学生",
+    "personality": "楽観的",
+    "family": "夫婦2人暮らし",
+    "difficulty": "low"
+  },
+  {
+    "name": "高橋 翔太",
+    "age": 60,
+    "nationality": "日本",
+    "occupation": "投資家",
+    "personality": "慎重派",
+    "family": "子どもと2人暮らし（シングル）",
+    "difficulty": "high"
+  },
+  {
+    "name": "田中 さくら",
+    "age": 31,
+    "nationality": "日本",
+    "occupation": "会社員",
+    "personality": "感情的",
+    "family": "両親と同居",
+    "difficulty": "medium"
+  },
+  {
+    "name": "佐藤 葵",
+    "age": 30,
+    "nationality": "日本",
+    "occupation": "税理士",
+    "personality": "おっとり",
+    "family": "兄弟と同居",
+    "difficulty": "low"
+  },
+  {
+    "name": "佐藤 結衣",
+    "age": 48,
+    "nationality": "日本",
+    "occupation": "研究員",
+    "personality": "おっとり",
+    "family": "夫婦＋子ども1人（小学生）",
+    "difficulty": "medium"
+  },
+  {
+    "name": "吉田 健太",
+    "age": 44,
+    "nationality": "日本",
+    "occupation": "美容師",
+    "personality": "感情的",
+    "family": "ルームシェア",
+    "difficulty": "low"
+  },
+  {
+    "name": "田中 悠斗",
+    "age": 40,
+    "nationality": "日本",
+    "occupation": "投資家",
+    "personality": "論理的",
+    "family": "子どもと2人暮らし（シングル）",
+    "difficulty": "high"
+  },
+  {
+    "name": "伊藤 蓮",
+    "age": 62,
+    "nationality": "日本",
+    "occupation": "自営業",
+    "personality": "柔軟",
+    "family": "一人暮らし",
+    "difficulty": "low"
+  },
+  {
+    "name": "鈴木 美咲",
+    "age": 27,
+    "nationality": "日本",
+    "occupation": "公務員",
+    "personality": "真面目",
+    "family": "夫婦＋子ども2人（中高生）",
+    "difficulty": "low"
+  },
+  {
+    "name": "吉田 葵",
+    "age": 66,
+    "nationality": "日本",
+    "occupation": "営業職",
+    "personality": "真面目",
+    "family": "ルームシェア",
+    "difficulty": "medium"
+  },
+  {
+    "name": "伊藤 蓮",
+    "age": 72,
+    "nationality": "日本",
+    "occupation": "看護師",
+    "personality": "おしゃべり",
+    "family": "夫婦＋子ども1人（小学生）",
+    "difficulty": "low"
+  },
+  {
+    "name": "小林 健太",
+    "age": 71,
+    "nationality": "日本",
+    "occupation": "フリーター",
+    "personality": "内向的",
+    "family": "ルームシェア",
+    "difficulty": "low"
+  },
+  {
+    "name": "伊藤 翔太",
+    "age": 37,
+    "nationality": "日本",
+    "occupation": "マーケター",
+    "personality": "真面目",
+    "family": "一人暮らし",
+    "difficulty": "low"
+  },
+  {
+    "name": "田中 悠斗",
+    "age": 55,
+    "nationality": "日本",
+    "occupation": "主婦",
+    "personality": "現実的",
+    "family": "夫婦＋子ども2人（中高生）",
+    "difficulty": "low"
+  },
+  {
+    "name": "田中 結衣",
+    "age": 28,
+    "nationality": "日本",
+    "occupation": "建築士",
+    "personality": "おしゃべり",
+    "family": "子どもと2人暮らし（シングル）",
+    "difficulty": "low"
+  },
+  {
+    "name": "加藤 美咲",
+    "age": 36,
+    "nationality": "日本",
+    "occupation": "公務員",
+    "personality": "慎重派",
+    "family": "夫婦2人暮らし",
+    "difficulty": "low"
+  },
+  {
+    "name": "中村 大輔",
+    "age": 73,
+    "nationality": "日本",
+    "occupation": "建築士",
+    "personality": "柔軟",
+    "family": "兄弟と同居",
+    "difficulty": "low"
+  },
+  {
+    "name": "高橋 蓮",
+    "age": 29,
+    "nationality": "日本",
+    "occupation": "税理士",
+    "personality": "楽観的",
+    "family": "兄弟と同居",
+    "difficulty": "low"
+  },
+  {
+    "name": "田中 美咲",
+    "age": 32,
+    "nationality": "日本",
+    "occupation": "看護師",
+    "personality": "感情的",
+    "family": "両親と同居",
+    "difficulty": "low"
+  },
+  {
+    "name": "伊藤 さくら",
+    "age": 70,
+    "nationality": "日本",
+    "occupation": "飲食店経営者",
+    "personality": "楽観的",
+    "family": "夫婦2人暮らし",
+    "difficulty": "low"
+  },
+  {
+    "name": "高橋 健太",
+    "age": 40,
+    "nationality": "日本",
+    "occupation": "起業家",
+    "personality": "現実的",
+    "family": "ルームシェア",
+    "difficulty": "high"
+  },
+  {
+    "name": "鈴木 健太",
+    "age": 71,
+    "nationality": "日本",
+    "occupation": "不動産業",
+    "personality": "内向的",
+    "family": "子どもと2人暮らし（シングル）",
+    "difficulty": "low"
+  },
+  {
+    "name": "中村 翔太",
+    "age": 59,
+    "nationality": "日本",
+    "occupation": "自営業",
+    "personality": "おっとり",
+    "family": "両親と同居",
+    "difficulty": "low"
+  },
+  {
+    "name": "中村 健太",
+    "age": 61,
+    "nationality": "日本",
+    "occupation": "主婦",
+    "personality": "マイペース",
+    "family": "夫婦＋子ども2人（中高生）",
+    "difficulty": "low"
+  },
+  {
+    "name": "佐藤 大輔",
+    "age": 42,
+    "nationality": "日本",
+    "occupation": "薬剤師",
+    "personality": "楽観的",
+    "family": "子どもと2人暮らし（シングル）",
+    "difficulty": "low"
+  },
+  {
+    "name": "山本 悠斗",
+    "age": 69,
+    "nationality": "日本",
+    "occupation": "研究員",
+    "personality": "短気",
+    "family": "夫婦＋子ども1人（小学生）",
+    "difficulty": "high"
+  },
+  {
+    "name": "小林 蓮",
+    "age": 57,
+    "nationality": "日本",
+    "occupation": "学生",
+    "personality": "自己主張が強い",
+    "family": "夫婦＋子ども1人（小学生）",
+    "difficulty": "high"
+  },
+  {
+    "name": "山本 美咲",
+    "age": 70,
+    "nationality": "日本",
+    "occupation": "税理士",
+    "personality": "空想的",
+    "family": "子どもと2人暮らし（シングル）",
+    "difficulty": "low"
+  },
+  {
+    "name": "加藤 健太",
+    "age": 41,
+    "nationality": "日本",
+    "occupation": "マーケター",
+    "personality": "真面目",
+    "family": "両親と同居",
+    "difficulty": "low"
+  },
+  {
+    "name": "中村 美咲",
+    "age": 40,
+    "nationality": "日本",
+    "occupation": "主婦",
+    "personality": "おしゃべり",
+    "family": "夫婦＋子ども2人（中高生）",
+    "difficulty": "low"
+  },
+  {
+    "name": "高橋 美咲",
+    "age": 64,
+    "nationality": "日本",
+    "occupation": "起業家",
+    "personality": "空想的",
+    "family": "子どもと2人暮らし（シングル）",
+    "difficulty": "high"
+  },
+  {
+    "name": "佐藤 葵",
+    "age": 35,
+    "nationality": "日本",
+    "occupation": "研究員",
+    "personality": "慎重派",
+    "family": "子どもと2人暮らし（シングル）",
+    "difficulty": "medium"
+  },
+  {
+    "name": "高橋 大輔",
+    "age": 50,
+    "nationality": "日本",
+    "occupation": "会社員",
+    "personality": "内向的",
+    "family": "夫婦＋子ども2人（中高生）",
+    "difficulty": "medium"
+  },
+  {
+    "name": "佐藤 葵",
+    "age": 35,
+    "nationality": "日本",
+    "occupation": "自営業",
+    "personality": "空想的",
+    "family": "ルームシェア",
+    "difficulty": "low"
+  },
+  {
+    "name": "田中 さくら",
+    "age": 56,
+    "nationality": "日本",
+    "occupation": "会社員",
+    "personality": "慎重派",
+    "family": "兄弟と同居",
+    "difficulty": "medium"
+  },
+  {
+    "name": "鈴木 健太",
+    "age": 59,
+    "nationality": "日本",
+    "occupation": "大学教授",
+    "personality": "人見知り",
+    "family": "夫婦＋子ども2人（中高生）",
+    "difficulty": "medium"
+  },
+  {
+    "name": "田中 悠斗",
+    "age": 55,
+    "nationality": "日本",
+    "occupation": "投資家",
+    "personality": "空想的",
+    "family": "夫婦2人暮らし",
+    "difficulty": "high"
+  },
+  {
+    "name": "Mia Kim",
+    "age": 42,
+    "nationality": "フランス",
+    "occupation": "主婦",
+    "personality": "熱血",
+    "family": "子どもと2人暮らし（シングル）",
+    "difficulty": "low"
+  },
+  {
+    "name": "James Chen",
+    "age": 28,
+    "nationality": "フィリピン",
+    "occupation": "公務員",
+    "personality": "感情的",
+    "family": "兄弟と同居",
+    "difficulty": "low"
+  },
+  {
+    "name": "Olivia Anderson",
+    "age": 36,
+    "nationality": "アメリカ",
+    "occupation": "薬剤師",
+    "personality": "現実的",
+    "family": "夫婦2人暮らし",
+    "difficulty": "low"
+  },
+  {
+    "name": "Sophia Davis",
+    "age": 60,
+    "nationality": "中国",
+    "occupation": "不動産業",
+    "personality": "真面目",
+    "family": "兄弟と同居",
+    "difficulty": "low"
+  },
+  {
+    "name": "Daniel Lee",
+    "age": 69,
+    "nationality": "フィリピン",
+    "occupation": "ITエンジニア",
+    "personality": "おしゃべり",
+    "family": "ルームシェア",
+    "difficulty": "low"
+  },
+  {
+    "name": "Daniel Lee",
+    "age": 64,
+    "nationality": "ベトナム",
+    "occupation": "自営業",
+    "personality": "空想的",
+    "family": "子どもと2人暮らし（シングル）",
+    "difficulty": "low"
+  },
+  {
+    "name": "John Smith",
+    "age": 36,
+    "nationality": "フランス",
+    "occupation": "大学教授",
+    "personality": "慎重派",
+    "family": "夫婦＋子ども2人（中高生）",
+    "difficulty": "medium"
+  },
+  {
+    "name": "James Chen",
+    "age": 70,
+    "nationality": "フィリピン",
+    "occupation": "建築士",
+    "personality": "おしゃべり",
+    "family": "兄弟と同居",
+    "difficulty": "low"
+  },
+  {
+    "name": "Olivia Anderson",
+    "age": 52,
+    "nationality": "フランス",
+    "occupation": "公務員",
+    "personality": "自己主張が強い",
+    "family": "ルームシェア",
+    "difficulty": "high"
+  },
+  {
+    "name": "Mia Kim",
+    "age": 60,
+    "nationality": "中国",
+    "occupation": "不動産業",
+    "personality": "人見知り",
+    "family": "夫婦＋子ども1人（小学生）",
+    "difficulty": "low"
+  }
+]

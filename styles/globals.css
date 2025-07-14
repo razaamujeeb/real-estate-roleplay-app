@@ -1,22 +1,16 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #f5f5f5;
-  color: #333;
-}
-
-button {
-  padding: 12px 24px;
-  font-size: 16px;
-  background-color: #4a90e2;
+/* styles/globals.css に追加 */
+.button-modern {
+  background-color: #222; 
+  color: #fff;           
+  font-size: 18px;
+  padding: 10px 20px;
   border: none;
-  color: white;
-  border-radius: 6px;
+  border-radius: 12px;   
   cursor: pointer;
-  transition: background 0.3s ease;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s;
 }
 
-button:hover {
-  background-color: #357ab8;
+.button-modern:hover {
+  background-color: #444;
 }
