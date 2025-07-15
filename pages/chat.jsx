@@ -1,33 +1,25 @@
 
 "use client";
 import { useEffect, useState } from "react";
+import { useRouter } from "next/router";  // ✅ 追加
+import characters from "../data/characters"; // ✅ キャラ読み込み
 
-export default function Chat({ searchParams }) {
-  const level = searchParams?.level || "normal";
+export default function Chat() {
+  const router = useRouter();
+  const level = router.query.level || "normal"; // ✅ クエリから取得
   const [character, setCharacter] = useState(null);
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState("");
 
   useEffect(() => {
-    const fetchCharacter = async () => {
-      const res = await fetch("/data/characters.json");
-      const allCharacters = await res.json();
-      const filtered = allCharacters.filter((character) => {
-        if (level === "hard") return character.difficulty === "high";
-        if (level === "normal") return character.difficulty === "medium";
-        if (level === "easy") return character.difficulty === "low";
-        return true;
-      });
-      const randomCharacter =
-        filtered[Math.floor(Math.random() * filtered.length)];
-      setCharacter(randomCharacter);
-
-      const greeting = getGreeting(randomCharacter);
-      setMessages([{ role: "assistant", content: greeting }]);
-    };
-
-    fetchCharacter();
-  }, [level]);
+    if (!router.isReady) return; // ✅ これがないと最初 null のままになる
+    const levelKey = ["easy", "normal", "hard"].includes(level) ? level : "normal";
+    const levelCharacters = characters[levelKey];
+    const randomCharacter = levelCharacters[Math.floor(Math.random() * levelCharacters.length)];
+    setCharacter(randomCharacter);
+    const greeting = getGreeting(randomCharacter);
+    setMessages([{ role: "assistant", content: greeting }]);
+  }, [router.isReady, level]);
 
   const getGreeting = (character) => {
     const { age, occupation, personality, family, nationality } = character;
@@ -68,7 +60,7 @@ export default function Chat({ searchParams }) {
 
     const systemPrompt = character
       ? `あなたは「${character.name}」という顧客です。不動産の購入を検討しています。不動産スタッフ（ユーザー）と自然な会話の中で、自分の年齢、職業、家族構成、希望条件などを徐々に伝えてください。会話が一方的にならないよう、相手に質問されたら丁寧に応答してください。`
-      : "あなたは不動産を探している顧客です。社員のセールスパフォーマンスを向上させる為に、なるべく実例に基づいた、自然な会話をしてください。";
+      : "";
 
     const res = await fetch("/api/chat", {
       method: "POST",
@@ -96,11 +88,12 @@ export default function Chat({ searchParams }) {
 
   return (
     <div style={{ backgroundColor: "#f2f2f2", minHeight: "100vh", padding: "20px" }}>
-      {character && (
-        <div style={{ marginBottom: "10px", fontWeight: "bold" }}>
-          {character.name} {character.age}歳（{character.occupation} / {character.nationality}）<br/>
-        </div>
-      )}
+     {character && (
+  <div style={{ marginBottom: "10px", fontWeight: "bold" }}>
+    {character.name}（{character.occupation} / {character.nationality}）<br/>
+    年齢: {character.age} ／ 性格: {character.personality} ／ 家族構成: {character.family}
+  </div>
+)}
       {messages.map((msg, i) => (
         <div
           key={i}
@@ -119,12 +112,19 @@ export default function Chat({ searchParams }) {
       ))}
       <div style={{ display: "flex", marginTop: "20px" }}>
         <input
-          type="text"
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-          placeholder="メッセージを入力..."
-          style={{ flex: 1, padding: "10px", fontSize: "16px" }}
-        />
+  type="text"
+  value={input}
+  onChange={(e) => setInput(e.target.value)}
+  onKeyDown={(e) => {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      sendMessage();
+    }
+  }}
+  placeholder="メッセージを入力..."
+  style={{ flex: 1, padding: "10px", fontSize: "16px" }}
+/>
+
         <button
           onClick={sendMessage}
           style={{
